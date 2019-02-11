@@ -1,0 +1,48 @@
+.title{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+/*Instructions*/
+
+.instructions{
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+    height: 300px;
+    background-color: #fbe6cf;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/*Random Number*/
+
+.rnd-num{
+    height: 125px;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+
+/*Wins Losses*/
+.wins-losses{
+    position: relative;
+    right: 25px;
+    height: 125px;
+    background-color: #4afdfd;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 0px;
+   
+}
