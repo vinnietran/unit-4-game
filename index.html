@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js" async></script>
     <title>CrystalGame</title>
 </head>
@@ -40,20 +41,63 @@
         </div>
     </div>
 
-     <!--Rnd Num container-->
-     <div class="row">
-            <div class="col-md-2">
-                <div class="rnd-num">
-                    <h2 id="rnd"></h2>
-                </div>
+    <!--Rnd Num container-->
+    <div class="row">
+        <div class="col-md-2">
+            <div class="rnd-num">
+                <h2 id="rnd"></h2>
             </div>
+        </div>
+
         <!--Wins and losses-->
         <div class="col-md-1">
             <div class="wins-losses">
                 <p id="w-l"></p>
             </div>
         </div>
+    </div>
+
+    <!--Image 1-->
+    <div id="images" class="row">
+
+        <div class="col-md-1">
+            <img id="blue-crystal" src="assets/images/blueCrystal.jpg" alt="Blue Crystal">
         </div>
+
+        <!--Image 2-->
+        <div class="col-md-1">
+            <img id="red-crystal" src="assets/images/redCrystal.jpg" alt="Red Crystal">
+        </div>
+
+        <!--Image 3-->
+        <div class="col-md-1">
+            <img id="yellow-crystal" src="assets/images/yellowCrystal.jpeg" alt="Yellow Crystal">
+        </div>
+
+        <!--Image 4-->
+        <div class="col-md-1">
+            <img id="green-crystal" src="assets/images/greenCrystal.jpg" alt="Green Crystal">
+        </div>
+
+
+    </div>
+    <!--User Score-->
+    <div class="row">
+
+        <div id="score-label" class="col-md-2">
+            <p>Your total score is</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+            <div id="score-value" class="col-md-2">
+                <h1 id="score"></h1>
+            </div>
+            
+        </div>
+
 </body>
 
 </html>
