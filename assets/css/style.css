@@ -88,8 +88,13 @@ h1{
 }
 */
 
-/*User Score*/
+.image-crystal{
+    position: static;
+    height: 100px;
+    width: 100px;
+}
 
+/*User Score*/
 #score-label{
     position: relative;
     height:25px;
